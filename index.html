@@ -537,7 +537,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!id) {
     errorBox.style.display = "block";
   } else {
-    fetch("https://allrounder2-0.pages.dev/id.json")
+    fetch("https://allrounderid2.pages.dev/id.json")
       .then(res => res.json())
       .then(data => {
         if (!data.iframes || !Array.isArray(data.iframes)) {
